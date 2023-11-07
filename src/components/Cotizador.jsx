@@ -29,10 +29,10 @@ const Cotizador = () => {
         fecha: new Date().toDateString(),
         ...elementos,
         cuenta:
-          costoMetroCuadrado *
+          (costoMetroCuadrado *
           elementos.metrosCuadrados *
           elementos.propiedad *
-          elementos.ubicacion,
+          elementos.ubicacion).toFixed(2)
       },
     ]);
     setPrecio(0);
