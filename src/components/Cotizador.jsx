@@ -19,8 +19,8 @@ const Cotizador = () => {
     if (metrosCuadrados < 20 || propiedad == 0 || ubicacion == 0) {
       Swal.fire("Oops", "Debes completar los datos", "error");
     }
-    const cuenta = costoMetroCuadrado * metrosCuadrados * propiedad * ubicacion;
-    setPrecio(cuenta);
+    const valor = costoMetroCuadrado * metrosCuadrados * propiedad * ubicacion;
+    setPrecio(valor);
   };
   const guardar = () => {
     setHistorial([
@@ -28,7 +28,7 @@ const Cotizador = () => {
       {
         fecha: new Date().toDateString(),
         ...elementos,
-        cuenta:
+        valor:
           (costoMetroCuadrado *
           elementos.metrosCuadrados *
           elementos.propiedad *
