@@ -28,7 +28,13 @@ h2 {
     justify-content: center;
     padding: 15px;
 }
-p {
+p{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: var(--color2);
+}
+li p {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -81,4 +87,6 @@ ul li {
     flex-wrap: wrap;
     gap: 10px;
     padding: 5px;
+    background-color: var(--color2);
+    margin: 5px;
 }
