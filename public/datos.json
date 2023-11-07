@@ -1,0 +1,62 @@
+[
+    {
+        "categoria": "propiedad",
+        "tipo": "Casa",
+        "factor": 1.09
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "P.H.",
+        "factor": 1.05
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Depto. Edificio",
+        "factor": 1.02
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Barrio Privado",
+        "factor": 1.19
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Oficina",
+        "factor": 2.39
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Local Comercial",
+        "factor": 1.41
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Depósito Logística",
+        "factor": 1.92
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Gran Mendoza",
+        "factor": 1.5
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Luján de Cuyo",
+        "factor": 1.4
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Maipu",
+        "factor": 1.3
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Zona Este",
+        "factor": 1.2
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Zona Sur",
+        "factor": 1.1
+    }
+]
